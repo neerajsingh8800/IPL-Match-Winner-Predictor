@@ -22,3 +22,14 @@ This project leverages an **XGBoost Classifier** to handle the high-dimensional 
 ├── IPL_Model.ipynb     # Full Pipeline: Data Cleaning, EDA, & Model Training
 ├── IPL_Prediction.py   # Streamlit Production Script
 └── requirements.txt    # Deployment Dependencies
+```
+## 📊 Methodology
+The model was trained on the complete IPL dataset (2008-2025), focusing on second-innings dynamics. It uses a 7-feature input vector to generate real-time probabilities with a focus on precision and recall for both close finishes and dominant victories. Key steps included:
+* **Data Cleaning:** Filtering for active franchises and handling venue name inconsistencies.
+* **Feature Engineering:** Creating rolling metrics like current run rate and required run rate.
+* **Model Selection:** Using **XGBoost** for its superior handling of tabular data and non-linear relationships.
+
+## 💾 Data Sources
+The model uses ball-by-ball and match-level data.
+* **Dataset1 Link:** [IPL Complete Dataset (Kaggle)](https://www.kaggle.com/datasets/patrickb1912/ipl-complete-dataset-20082020)
+* **Dataset2 Link:** [IPL Complete Dataset (Kaggle)](https://www.kaggle.com/datasets/chaitu20/ipl-dataset2008-2025)
