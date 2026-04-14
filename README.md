@@ -1,5 +1,5 @@
 # 🏏 IPL Match Winner-Predictor
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_svg.svg)](https://ipl-match-winner-predictor-g76nuf3epp3j6gjqqvwxbh.streamlit.app/)
+[![Streamlit App](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://ipl-match-winner-predictor-g76nuf3epp3j6gjqqvwxbh.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![ML](https://img.shields.io/badge/Model-XGBoost-green.svg)](https://xgboost.readthedocs.io/)
 
