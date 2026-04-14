@@ -6,10 +6,10 @@ import pickle
 st.set_page_config(page_title="IPL Pro Predictor", layout="wide")
 
 # Load Brain & History
-model = pickle.load(open('ipl_model.pkl', 'rb'))
-scaler = pickle.load(open('scaler.pkl', 'rb'))
-model_columns = pickle.load(open('columns.pkl', 'rb'))
-h2h_stats = pickle.load(open('h2h_stats.pkl', 'rb'))
+model = pickle.load(open('models/ipl_model.pkl', 'rb'))
+scaler = pickle.load(open('models/scaler.pkl', 'rb'))
+columns = pickle.load(open('models/columns.pkl', 'rb'))
+h2h_stats = pickle.load(open('models/h2h_stats.pkl', 'rb'))
 
 # --- 2. CUSTOM IPL STYLING (The "Amazing" Factor) ---
 st.markdown("""
