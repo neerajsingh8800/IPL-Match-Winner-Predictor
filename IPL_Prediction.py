@@ -80,7 +80,7 @@ with col_s2:
 # --- 6. PREDICTION ---
 if st.button('🎯 CALCULATE WIN PROBABILITY'):
     # Prepare data
-    input_df = pd.DataFrame(columns=model_columns).fillna(0)
+    input_df = pd.DataFrame(columns=columns).fillna(0)
     input_df.loc[0] = 0
     
     if f'city_{city}' in input_df.columns: input_df[f'city_{city}'] = 1
